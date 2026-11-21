@@ -20,7 +20,7 @@ export const products = [
     category: 'Carpetas de pictogramas',
     price: 110000,
     images: ['/carpeta_personalizada.jpg', '/carpeta_personalizada_2.jpg', '/carpeta_personalizada_3.jpg'],
-    description: 'Carpeta tamaño A4 de PVC con cierre. Incluye 165 pictogramas cotidianos más 100 personalizados según las necesidades de cada niño. La personalización de los mismos se realiza con el acompañamiento de la familia. Material plastificado con velcro para poder armar y desarmar la carpeta según las necesidades de cada niño y acompañar su proceso de aprendizaje y comunicación. Ideal para niños con dificultades en la comunicación, TEA, TGD, TDAH, discapacidad intelectual, afasia, entre otros.',
+    description: 'Carpeta N°3 de PVC con cierre. Incluye 165 pictogramas cotidianos más 100 personalizados según las necesidades de cada niño. La personalización de los mismos se realiza con el acompañamiento de la familia. Material plastificado con velcro para poder armar y desarmar la carpeta según las necesidades de cada niño y acompañar su proceso de aprendizaje y comunicación. Ideal para niños con dificultades en la comunicación, TEA, TGD, TDAH, discapacidad intelectual, afasia, entre otros.',
   },
   {
     id: 3,

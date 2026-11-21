@@ -198,7 +198,7 @@ function App() {
           </div>
           <div className="footer-links">
             <span className="footer-label">Seguinos y charlemos</span>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><Instagram size={17} /> Instagram</a>
+            <a href="https://www.instagram.com/togramas/?__pwa=1" target="_blank" rel="noreferrer"><Instagram size={17} /> Instagram</a>
             <a href={whatsappLink('Hola πKtogramas!')} target="_blank" rel="noreferrer"><MessageCircle size={17} /> WhatsApp</a>
           </div>
           <a className="back-top" href="#inicio" aria-label="Volver al inicio">Volver arriba <ArrowDown size={15} /></a>
