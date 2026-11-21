@@ -1,0 +1,73 @@
+export const categories = [
+  'Carpetas de pictogramas',
+  'Agendas de rutinas',
+  'Apoyo escolar/preescolar',
+  'Recursos visuales varios',
+]
+
+export const products = [
+  {
+    id: 1,
+    name: 'Mi carpeta para comunicar',
+    category: 'Carpetas de pictogramas',
+    price: 18500,
+    image: 'https://placehold.co/600x400/F5D8CD/51453B?text=Carpeta+para+comunicar',
+    description: 'Pictogramas cotidianos para expresar necesidades, ideas y emociones.',
+  },
+  {
+    id: 2,
+    name: 'Carpeta de emociones',
+    category: 'Carpetas de pictogramas',
+    price: 16200,
+    image: 'https://placehold.co/600x400/F3D6E4/51453B?text=Carpeta+de+emociones',
+    description: 'Un apoyo visual para reconocer y compartir cómo nos sentimos.',
+  },
+  {
+    id: 3,
+    name: 'Mi día paso a paso',
+    category: 'Agendas de rutinas',
+    price: 12800,
+    image: 'https://placehold.co/600x400/F7E6AE/51453B?text=Agenda+de+rutinas',
+    description: 'Rutinas visuales para anticipar las actividades de cada día.',
+  },
+  {
+    id: 4,
+    name: 'Agenda mañana y noche',
+    category: 'Agendas de rutinas',
+    price: 9400,
+    image: 'https://placehold.co/600x400/D9EAD7/51453B?text=Manana+y+noche',
+    description: 'Una guía sencilla para acompañar los momentos de todos los días.',
+  },
+  {
+    id: 5,
+    name: 'Aprendo a escribir mi nombre',
+    category: 'Apoyo escolar/preescolar',
+    price: 3500,
+    image: 'https://placehold.co/600x400/D7EAF0/51453B?text=Escribo+mi+nombre',
+    description: 'Plantilla plastificada y reutilizable para practicar el trazo.',
+  },
+  {
+    id: 6,
+    name: 'Primeras letras y sonidos',
+    category: 'Apoyo escolar/preescolar',
+    price: 4800,
+    image: 'https://placehold.co/600x400/E6DDF2/51453B?text=Letras+y+sonidos',
+    description: 'Un recurso lúdico para explorar letras, sonidos y palabras.',
+  },
+  {
+    id: 7,
+    name: 'Semáforo de la calma',
+    category: 'Recursos visuales varios',
+    price: 5200,
+    image: 'https://placehold.co/600x400/F7DCC8/51453B?text=Semaforo+de+la+calma',
+    description: 'Tarjetas visuales para hacer una pausa y encontrar la calma.',
+  },
+  {
+    id: 8,
+    name: 'Tablero de elecciones',
+    category: 'Recursos visuales varios',
+    price: 6900,
+    image: 'https://placehold.co/600x400/D6E9DC/51453B?text=Tablero+de+elecciones',
+    description: 'Opciones claras y visuales para elegir durante el día.',
+  },
+]
