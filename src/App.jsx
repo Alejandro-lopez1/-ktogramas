@@ -2,6 +2,8 @@ import { useState } from 'react'
 import {
   ArrowDown,
   ArrowRight,
+  ChevronLeft,
+  ChevronRight,
   Heart,
   Instagram,
   MapPin,
@@ -28,12 +30,35 @@ function BrandMark({ compact = false }) {
 }
 
 function ProductCard({ product, index }) {
+  const images = product.images ?? [product.image]
+  const [activeImageIndex, setActiveImageIndex] = useState(0)
   const message = `Hola πKtogramas! Me interesa comprar el producto: ${product.name} de la categoría ${product.category}`
 
   return (
     <article className="product-card" style={{ '--card-index': index }}>
       <div className="product-image-wrap">
-        <img className="product-image" src={product.image} alt={product.name} loading="lazy" />
+        <img className="product-image" src={images[activeImageIndex]} alt={product.name} loading="lazy" />
+        {images.length > 1 && (
+          <>
+            <button
+              className="image-nav image-nav--previous"
+              type="button"
+              aria-label={`Imagen anterior de ${product.name}`}
+              onClick={() => setActiveImageIndex((current) => (current - 1 + images.length) % images.length)}
+            >
+              <ChevronLeft size={18} />
+            </button>
+            <button
+              className="image-nav image-nav--next"
+              type="button"
+              aria-label={`Imagen siguiente de ${product.name}`}
+              onClick={() => setActiveImageIndex((current) => (current + 1) % images.length)}
+            >
+              <ChevronRight size={18} />
+            </button>
+            <span className="image-count" aria-live="polite">{activeImageIndex + 1} / {images.length}</span>
+          </>
+        )}
         <span className="category-tag">{product.category}</span>
       </div>
       <div className="product-copy">
